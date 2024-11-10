@@ -14,9 +14,26 @@ way to update this template, but currently, we follow a pattern:
 
 ## Upcoming version 2024-XX-XX
 
+- [change] Relax the Referrer-Policy to "origin".
+  [#498](https://github.com/sharetribe/web-template/pull/498)
+- [fix] Open discard modal on ManageListingsPage only if scrolling is disabled. Fixes an issue where
+  opening the discard draft modal on mobile scrolled the page to the very bottom.
+  [#497](https://github.com/sharetribe/web-template/pull/497)
+
+## [v6.1.0] 2024-11-06
+
+- [add] Add currently available translations for DE, ES, FR.
+  [#495](https://github.com/sharetribe/web-template/pull/495)
+- [add] Add support for discarding draft listings on ManageListingsPage
+  [474](https://github.com/sharetribe/web-template/pull/474)
+- [fix] ManageListingCard: Menu has a regression bug on mobile layout. Note: if Menu component needs
+  to use full screenwidth on mobile, add preferScreenWidthOnMobile.
+  [#494](https://github.com/sharetribe/web-template/pull/494)
 - [change] Refactor SingleDatePicker and DateRangePicker by combining date and its formatting. It
   updates dateData if passed-in input value changes.
   [#492](https://github.com/sharetribe/web-template/pull/492)
+
+  [v6.1.0]: https://github.com/sharetribe/web-template/compare/v6.0.1...v6.1.0
 
 ## [v6.0.1] 2024-11-01
 
