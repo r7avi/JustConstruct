@@ -14,6 +14,22 @@ way to update this template, but currently, we follow a pattern:
 
 ## Upcoming version 2024-XX-XX
 
+- SingeDatePicker: don't update value to dateData if it has the same timestamp has not changed.
+  [#507](https://github.com/sharetribe/web-template/pull/507)
+- [change] Node v23.2 is failing. This adds engine rule for node (">=18.20.1 <23.2.0") for now.
+  [#505](https://github.com/sharetribe/web-template/pull/505)
+- [change] Update mapbox-gl-js (v1.0.0 => v3.7.0) and mapbox-sdk-js (0.6.0 => 0.16.1) Note: Mapbox
+  license changed in v2 (and pricing for non-mapbox related map tiles)
+  https://github.com/mapbox/mapbox-gl-js/releases/tag/v2.0.0
+
+  [#488](https://github.com/sharetribe/web-template/pull/488)
+
+- [change] Update default email template copy texts
+  [#501](https://github.com/sharetribe/web-template/pull/501)
+- [fix] ConfirmSignupForm: show spinner. (Handling for confirmInProgress state was missing.)
+  [#504](https://github.com/sharetribe/web-template/pull/504)
+- [fix] Topbar: if multiple custom links has the same text, the virtual DOM is confused.
+  [#502](https://github.com/sharetribe/web-template/pull/502)
 - [fix] PaymentMethodsPage: full page load did not fetch defaultPaymentMethod.
   [#500](https://github.com/sharetribe/web-template/pull/500)
 - [change] Relax the Referrer-Policy to "origin".
